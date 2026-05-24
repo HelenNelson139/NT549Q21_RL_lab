@@ -1,6 +1,13 @@
+# Use the CUDA 12.1 PyTorch wheel set for RTX 4050 on Windows.
+--index-url https://download.pytorch.org/whl/cu121
+--extra-index-url https://pypi.org/simple
+
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+torchaudio==2.5.1+cu121
+
 numpy>=1.24
 pandas>=2.0
 matplotlib>=3.7
 gymnasium>=0.28
-torch
 stable-baselines3
